@@ -1,0 +1,42 @@
+
+Level 2
+
+
+|What is the DOM?|
+Document Object Model, Is how you can describe the hierarchy of all your files, and how it moves/processing the data
+
+|List three methods to manipulate the DOM.|
+document.getElementById("Hey").innerHTML = "Hello World!";
+var firstDiv = document.querySelector('div');
+btn.addEventListener('click', foo);
+
+|What is an asynchronous call?|
+If you have a code that would take long time to load, you can make a call to initiate an asynchronous operation, making it process in the background, so that you can continue down the code without unnecessary loading time. 
+
+
+|Briefly explain what the sources tab in Chromes Developers Tools does.|
+It showcases the entire DOM, all the files with all the code. 
+
+
+
+|What is a JavaScript promise?|
+
+
+Let promise1 = new promise(function(resolve, reject){
+resolve(‘success);
+});
+
+JavaScript promises, is an object that represents an eventual completion or failure of an asynchronous operation, including its resulting value.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+If you have a code that would take long time to load, you can make an asynchronous operation, to make a request to return a promise that the operation will be completed at some point, a promise is basically a tool to check the status of the asynchronous operation.
+
+|What is an API?|
+Application Programming Interface
+It's a way to serve data, store data on server for client side programming.
+
+|What is a JavaScript Event?|
+Its a method to create certain events(actions) to happen i the DOM
+
+|What is event bubbling?|
+Going upwards instead of downwards in the DOM,When an event is affecting the parental elements, we say that it bubbles upwards just like bubbles naturally occur in fluids. 
